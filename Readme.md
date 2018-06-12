@@ -16,6 +16,7 @@ Usage: l2tp [-l,--list|-a,--add|-d,--del|-m,--mod|-h,--help]
 | l2tp -m,--mod    | Modify a user password       |
 | l2tp -h,--help   | Print this help information  |
 ```
+一键安装最新内核并开启 BBR 脚本
 
 bbr.sh
 ======

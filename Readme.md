@@ -16,14 +16,13 @@ Usage: l2tp [-l,--list|-a,--add|-d,--del|-m,--mod|-h,--help]
 | l2tp -m,--mod    | Modify a user password       |
 | l2tp -h,--help   | Print this help information  |
 
-一键为kvm架构VPS增加512M swap
+add512.sh （一键为kvm架构VPS增加512M swap）
 
+wget --no-check-certificate https://raw.githubusercontent.com/wangzhe12588/swap-kvm/master/add512.sh && bash add512.sh
 
+bbr.sh    （一键安装最新内核并开启 BBR 脚本）
 
-一键安装最新内核并开启 BBR 脚本
-
-bbr.sh
-======
+wget --no-check-certificate https://github.com/teddysun/across/raw/master/bbr.sh && chmod +x bbr.sh && ./bbr.sh
 
 - Description: Auto install latest kernel for TCP BBR
 - Intro: https://teddysun.com/489.html

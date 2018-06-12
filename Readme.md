@@ -15,7 +15,11 @@ Usage: l2tp [-l,--list|-a,--add|-d,--del|-m,--mod|-h,--help]
 | l2tp -d,--del    | Delete a user                |
 | l2tp -m,--mod    | Modify a user password       |
 | l2tp -h,--help   | Print this help information  |
-```
+
+一键为kvm架构VPS增加512M swap
+
+
+
 一键安装最新内核并开启 BBR 脚本
 
 bbr.sh
